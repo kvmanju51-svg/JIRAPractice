@@ -1,0 +1,13 @@
+| Req ID | Requirement       | User Story                               | Test Case IDs                |
+| ------ | ----------------- | ---------------------------------------- | ---------------------------- |
+| FR_01  | Add Book          | As a librarian, I want to add books      | TC_BM_01, TC_BM_02, TC_BM_03 |
+| FR_02  | Search Book       | As a user, I want to search books        | TC_BM_05, TC_BM_06, TC_BM_07 |
+| FR_03  | Issue Book        | As a librarian, I want to issue books    | TC_BR_01, TC_BR_02, TC_BR_03 |
+| FR_04  | Return Book       | As a librarian, I want to accept returns | TC_BR_05, TC_BR_06           |
+| FR_05  | Reserve Book      | As a user, I want to reserve books       | TC_RS_01, TC_RS_02           |
+| FR_06  | Fine Calculation  | System calculates late fines             | TC_FN_01, TC_FN_02           |
+| FR_07  | User Registration | Register new users                       | TC_UM_01, TC_UM_02           |
+| FR_08  | Login             | User login                               | TC_UM_04, TC_UM_05           |
+| FR_09  | Reports           | Generate reports                         | TC_RP_01, TC_RP_02           |
+| NFR_01 | Performance       | Fast response time                       | Performance tests            |
+| NFR_02 | Security          | Secure login                             | Security tests               |

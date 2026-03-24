@@ -1,0 +1,70 @@
+Epic: Book Management
+
+Story 1: Add Book
+
+As a librarian, I want to add new books so that they are available in the system.
+Acceptance Criteria:
+Book title, author, ISBN are required
+Duplicate ISBN should not be allowed
+Confirmation message displayed
+
+Story 2: Search Book
+
+As a user, I want to search books so that I can find what I need.
+Acceptance Criteria:
+Search by title, author, category
+Results displayed within 2 seconds
+Show availability status
+📦 Epic: Book Borrowing
+
+Story 3: Issue Book
+
+As a librarian, I want to issue books to users so they can borrow them.
+Acceptance Criteria:
+Check book availability
+Check user borrowing limit
+Assign due date automatically
+
+Story 4: Return Book
+
+As a librarian, I want to process book returns so that inventory is updated.
+Acceptance Criteria:
+Update book status to available
+Calculate fine if overdue
+Show fine amount
+🔄 Epic: Book Reservation
+
+Story 5: Reserve Book
+
+As a user, I want to reserve unavailable books so I can get them later.
+Acceptance Criteria:
+Allow reservation only if book is unavailable
+Notify user when available
+Maintain reservation queue
+💰 Epic: Fine Management
+
+Story 6: Fine Calculation
+
+As a system, I want to calculate fines so that late returns are penalized.
+Acceptance Criteria:
+Fine calculated per day after due date
+Configurable fine rate
+Display total fine
+👥 Epic: User Management
+
+Story 7: Register User
+
+As a librarian, I want to register new users so they can borrow books.
+Acceptance Criteria:
+Unique user ID generated
+Required fields validated
+User account created successfully
+📊 Epic: Reporting
+
+Story 8: Generate Reports
+
+As an admin, I want to view reports so I can monitor library activity.
+Acceptance Criteria:
+Reports for issued, returned, overdue books
+Export option (PDF/Excel)
+Filter by date

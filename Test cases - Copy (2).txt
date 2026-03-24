@@ -1,0 +1,53 @@
+1. Book Management Test Cases
+✅ Add Book
+TC ID	Test Case	Steps	Expected Result
+TC_BM_01	Add valid book	Enter all required fields	Book added successfully
+TC_BM_02	Missing mandatory fields	Leave title/ISBN empty	Error message displayed
+TC_BM_03	Duplicate ISBN	Enter existing ISBN	System rejects entry
+TC_BM_04	Invalid ISBN format	Enter incorrect ISBN	Validation error shown
+🔍 Search Book
+TC ID	Test Case	Steps	Expected Result
+TC_BM_05	Search by title	Enter book title	Matching books displayed
+TC_BM_06	Search by author	Enter author name	Correct results shown
+TC_BM_07	No results found	Search random text	“No books found” message
+TC_BM_08	Partial search	Enter partial keyword	Relevant books displayed
+📦 2. Book Borrowing Test Cases
+📖 Issue Book
+TC ID	Test Case	Steps	Expected Result
+TC_BR_01	Issue available book	Select available book	Book issued successfully
+TC_BR_02	Issue unavailable book	Select already issued book	Error message shown
+TC_BR_03	Exceed borrowing limit	User already at limit	System blocks issuing
+TC_BR_04	Invalid user	Enter wrong user ID	Error displayed
+🔄 Return Book
+TC ID	Test Case	Steps	Expected Result
+TC_BR_05	Return on time	Return before due date	No fine applied
+TC_BR_06	Return late	Return after due date	Fine calculated
+TC_BR_07	Return invalid book	Enter wrong book ID	Error shown
+🔄 3. Reservation Test Cases
+TC ID	Test Case	Steps	Expected Result
+TC_RS_01	Reserve unavailable book	Select issued book	Reservation successful
+TC_RS_02	Reserve available book	Select available book	Reservation not allowed
+TC_RS_03	Multiple reservations	Multiple users reserve same book	Queue maintained
+TC_RS_04	Notification	Book becomes available	User notified
+💰 4. Fine Management Test Cases
+TC ID	Test Case	Steps	Expected Result
+TC_FN_01	Fine calculation	Return book late	Correct fine calculated
+TC_FN_02	Zero fine	Return on time	No fine
+TC_FN_03	Configurable rate	Change fine rate	New rate applied
+TC_FN_04	Fine payment	Pay fine	Payment successful
+👥 5. User Management Test Cases
+🧑 Register User
+TC ID	Test Case	Steps	Expected Result
+TC_UM_01	Valid registration	Enter all details	User created
+TC_UM_02	Duplicate user	Same email/ID	Error shown
+TC_UM_03	Missing fields	Leave required fields	Validation error
+🔐 Login
+TC ID	Test Case	Steps	Expected Result
+TC_UM_04	Valid login	Enter correct credentials	Login successful
+TC_UM_05	Invalid login	Wrong password	Error message
+TC_UM_06	Empty fields	Leave fields blank	Validation error
+📊 6. Reporting Test Cases
+TC ID	Test Case	Steps	Expected Result
+TC_RP_01	Generate report	Select report type	Report generated
+TC_RP_02	Filter report	Apply date filter	Correct filtered data
+TC_RP_03	Export report	Click export	File downloaded
