@@ -1,0 +1,38 @@
+Library Management System
+│
+├── Login / Signup
+│
+├── Dashboard
+│   ├── Overview (Books, Users, Activity)
+│
+├── Books
+│   ├── Add Book
+│   ├── Search Book
+│   ├── Book Details
+│
+├── Users
+│   ├── Register User
+│   ├── User List
+│   ├── User Profile
+│
+├── Transactions
+│   ├── Issue Book
+│   ├── Return Book
+│   ├── Renew Book
+│
+├── Reservations
+│   ├── Reserve Book
+│   ├── Reservation Queue
+│
+├── Fines
+│   ├── View Fines
+│   ├── Pay Fine
+│
+├── Reports
+│   ├── Issued Books
+│   ├── Overdue Books
+│   ├── User Activity
+│
+└── Admin Settings
+    ├── Manage Librarians
+    ├── System Configuration
